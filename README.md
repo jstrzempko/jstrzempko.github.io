@@ -2,12 +2,9 @@
 
 Aspiring geospatial professional and current M.S. GIS candidate at Clark University with a background in environmental science, mathematics, and land change modeling and a passion for understanding human-environment relations. Experience with, and curiosity for, a variety of software (ArcGIS products, QGIS, TerrSet, GeoDa) and programming languages (R, Python, JavaScript). 
 
-You can use the [editor on GitHub](https://github.com/jstrzempko/jstrzempko.github.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+You can use the [editor on GitHub](https://github.com/jstrzempko/jstrzempko.github.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files. Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
 ### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
 ```markdown
 Syntax highlighted code block
