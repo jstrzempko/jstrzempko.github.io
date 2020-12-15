@@ -1,4 +1,4 @@
-# About | [Portfolio](./portfolio.md) | [Resume](./resume.md) | [Contact](./contact.md)
+## About | [Portfolio](./portfolio.md) | [Resume](./resume.md) | [Contact](./contact.md)
 
 **Welcome!**
 
