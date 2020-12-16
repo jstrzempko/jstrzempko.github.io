@@ -4,7 +4,7 @@
 
 ![](assets/img/masters.png)
 
-**Flow and Markov matrices for categorical transition extrapolation** 
+#### Flow and Markov matrices for categorical transition extrapolation
 
 *in progress work on Master's Thesis*
 
@@ -12,7 +12,7 @@ My Master's Thesis is a comparison of two kinds of transition matrices used for 
 
 ![](assets/img/poster.png)
 
-**Characterization of wetland scaling and influence in the Ipswich and Parker River watersheds of northeastern Massachusetts** 
+#### Characterization of wetland scaling and influence in the Ipswich and Parker River watersheds of northeastern Massachusetts
 
 *Summer 2020 Internship*
 
@@ -20,7 +20,7 @@ I received the Edna Bailey Sussman Fund Graduate Fellowship in Spring 2020 to wo
 
 ![](assets/img/advraster_gee.PNG)
 
-**Tutorial: Habitat Suitability Modeling using Random Forest Classification in Google Earth Engine** 
+#### Tutorial: Habitat Suitability Modeling using Random Forest Classification in Google Earth Engine
 
 *Final Project for GEOG 397 Advanced Raster GIS*
 
@@ -28,7 +28,7 @@ I completed a tutorial that walks users through a simple application of the Rand
 
 ![](assets/img/KernelDensity.gif)
 
-**Examining Climate Change Impacts on Tropical Cyclones in the Western North Pacific using Vector GIS Spatial Analyst Tools** 
+#### Examining Climate Change Impacts on Tropical Cyclones in the Western North Pacific using Vector GIS Spatial Analyst Tools
 
 *Final Project for IDCE 388 Advanced Vector GIS*
 
@@ -36,7 +36,7 @@ My teammate, Caroline Williams, and I completed this project investigating the i
 
 ![](assets/img/honorsthesis_nbr.png)
 
-**Burn Severity and Vegetation Recovery Analysis of the Anaktuvuk River Fire on the North Slope Tundra of Alaska** 
+#### Burn Severity and Vegetation Recovery Analysis of the Anaktuvuk River Fire on the North Slope Tundra of Alaska
 
 *Undergraduate Honors Thesis*
 
@@ -44,7 +44,7 @@ Completed in my senior year at Clark, my Honors Thesis observed trends in vegeta
 
 ![](assets/img/rpontius_VCRposter05.png)
 
-**Land Change Extrapolation for Virginia Coast Reserve with TerrSet's Land Change Modeler** 
+#### Land Change Extrapolation for Virginia Coast Reserve with TerrSet's Land Change Modeler
 
 *Final Project for GEOG 360 GIS & Land Change Models*
 
@@ -52,7 +52,7 @@ My group members, Rachel Corcoran-Adams, Elizabeth Lohr, and Julia Moore, and I 
 
 ![](assets/img/mongolia_ap.png)
 
-**Mapping Our Way Through the Smog: Researching Ulaanbaatar Air Pollution in Ulaanbaatar, Mongolia** 
+#### Mapping Our Way Through the Smog: Researching Ulaanbaatar Air Pollution in Ulaanbaatar, Mongolia
 
 *Abroad Internship with the Ger Community Mapping Center*
 
@@ -60,7 +60,7 @@ In May 2019 during my semester abroad in Mongolia, I completed an internship wit
 
 ![](assets/img/introRS_glacier.jpg)
 
-**Melting Iceland: Mýrdalsjökull and Eyjafjallajökull** 
+#### Melting Iceland: Mýrdalsjökull and Eyjafjallajökull
 
 *Final Project for GEOG 296 Introduction to Remote Sensing*
 
@@ -68,7 +68,7 @@ My group members, Rowan Moody and Jessica Martinez, and I characterized changes 
 
 ![](assets/img/introgis_chickadee.png)
 
-**Black-capped Chickadee Breeding Habitat Distribution in MA** 
+#### Black-capped Chickadee Breeding Habitat Distribution in MA
 
 *Final Project for GEOG 190 Introduction to GIS*
 
