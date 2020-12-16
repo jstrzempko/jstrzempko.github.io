@@ -1,6 +1,6 @@
 ## [About](./README.md) | [Portfolio](./portfolio.md) | [Resume](./resume.md) | Contact
 
-**Feel free to reach out to me using the below contact information. I am open to both personal and professional inquiries.**
+#### Feel free to reach out to me using the below contact information. I am open to both personal and professional inquiries.
 
 *Location:* Worcester, MA 01610
 
