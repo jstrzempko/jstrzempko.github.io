@@ -18,6 +18,7 @@ Processed and analyzed 100 seawater samples collected by NOAA’s Distributed Bi
 
 #### Intern - NOAA Northeast Fisheries Science Center - Summer 2018
 Research project: “Assessing Intra-fish scale Variability in Atlantic Salmon (Salmo salar) from the Narraguagus and Sheepscot Rivers, ME”
+
 Co-author on 2019 ASERT Image Analysis Labs Annual Report to USASAC
 
 ## Skills
@@ -43,8 +44,11 @@ Thesis: “Flow and Markov matrices for categorical transition extrapolation”
 
 #### Bachelor of Arts - Clark University - Received May 2020
 Major: Environmental Science, Minor: Mathematics
+
 High Honors, Summa Cum Laude, Graduating GPA: 4.11
+
 Relevant coursework: Vector & Raster GIS, Linear Models, Remote Sensing
+
 Inductee to Phi Beta Kappa & Gamma Theta Upsilon Honor Societies
 
 #### High School Diploma - Holliston High School - Received May 2016
