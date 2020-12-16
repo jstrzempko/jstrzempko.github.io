@@ -1,5 +1,7 @@
 ## [About](./README.md) | [Portfolio](./portfolio.md) | Resume | [Contact](./contact.md)
 
+# [Resume](assets/img/resume.pdf)
+
 ### Professional Experience
 * **GIS Intern - Water Systems Analysis Group - Summer 2020** 
   + Research Project: “Characterization of wetland scaling and influence in the Ipswich and Parker River watersheds of northeastern Massachusetts”
