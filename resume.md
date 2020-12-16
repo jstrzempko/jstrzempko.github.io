@@ -1,7 +1,7 @@
 ## [About](./README.md) | [Portfolio](./portfolio.md) | Resume | [Contact](./contact.md)
 
 ### Professional Experience
-* **GIS Intern / Water Systems Analysis Group / Summer 2020** 
+* **GIS Intern - Water Systems Analysis Group - Summer 2020** 
   + Research Project: “Characterization of wetland scaling and influence in the Ipswich and Parker River watersheds of northeastern Massachusetts”
 * **Teaching Assistant / Advanced Vector, Social Applications of GIS / 2020**
   + Graded weekly lab assignments and assisted in lesson planning
