@@ -1,6 +1,6 @@
 ## [About](./README.md) | [Portfolio](./portfolio.md) | Resume | [Contact](./contact.md)
 
-*Worcester, MA 01610 | (508)-479-3279 | JessStrzempko@gmail.com | [LinkedIn](https://www.linkedin.com/in/jessica-strzempko/) | [GitHub](https://github.com/jstrzempko)*
+*Worcester, MA 01610 - (508)-479-3279 - JessStrzempko@gmail.com - [LinkedIn](https://www.linkedin.com/in/jessica-strzempko/) - [GitHub](https://github.com/jstrzempko)*
 
 ### Professional Experience
 * **GIS Intern | Water Systems Analysis Group | Summer 2020** 
