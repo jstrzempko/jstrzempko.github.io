@@ -5,9 +5,9 @@
 ### Professional Experience
 * **GIS Intern - Water Systems Analysis Group - Summer 2020** 
   + Research Project: “Characterization of wetland scaling and influence in the Ipswich and Parker River watersheds of northeastern Massachusetts”
-* **Teaching Assistant - Advanced Vector, Social Applications of GIS - 2020**
+**Teaching Assistant - Advanced Vector, Social Applications of GIS - 2020**
   + Graded weekly lab assignments and assisted in lesson planning
-* **Mapping Intern - Ger Community Mapping Center - May 2019**
+**Mapping Intern - Ger Community Mapping Center - May 2019**
   + Mapped personal air pollution exposure data of 8 individuals collected for the European Union Switch II Asia program
 * **Research Assistant - Polar Science Research Laboratory - Fall 2018**
   + Processed and analyzed 100 seawater samples collected by NOAA’s Distributed Biological Observatory
