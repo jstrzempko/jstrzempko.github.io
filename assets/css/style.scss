@@ -2,6 +2,22 @@
 ---
 
 @import "{{ site.theme }}";
+
 body {
-  background-color: #ccebff;
+  background-color: #282842;
+  color: #f2f2f2;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #f7f7f7;
+}
+
+a {
+  color: #f7f7f7;
+  text-decoration:none;
+}
+
+a:hover, a:focus {
+  color: #ffffff;
+  font-weight: bold;
 }
