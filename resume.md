@@ -1,6 +1,6 @@
 ## [About](./README.md) | [Portfolio](./portfolio.md) | Resume | [Contact](./contact.md)
 
-*[Download Resume](resume.pdf)*
+*[Download Resume](jstrzempko_resume.pdf)*
 
 ## Professional Experience
 
