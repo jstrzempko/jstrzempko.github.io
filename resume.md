@@ -1,6 +1,6 @@
 ## [About](./README.md) | [Portfolio](./portfolio.md) | Resume | [Contact](./contact.md)
 
-## [Download Resume](assets/img/resume.pdf)
+## [Download Resume](resume.pdf)
 
 ### Professional Experience
 * **GIS Intern - Water Systems Analysis Group - Summer 2020** 
