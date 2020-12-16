@@ -6,4 +6,6 @@
 
 *Phone:* 508-479-3279
 
-*LinkedIn:* [Jessica-Strzempko](https://www.linkedin.com/in/jessica-strzempko/)
+*LinkedIn:* [Jessica Strzempko](https://www.linkedin.com/in/jessica-strzempko/)
+
+*GitHub:* [jstrzempko](https://github.com/jstrzempko)
