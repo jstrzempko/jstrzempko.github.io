@@ -50,7 +50,7 @@ Completed in my senior year at Clark, my Honors Thesis observed trends in vegeta
 
 My group members, Rachel Corcoran-Adams, Elizabeth Lohr, and Julia Moore, and I performed land change extrapolations  for the Virginia Coast Reserve site of the Long Term Ecological Research Network with TerrSet’s Land Change Modeler (LCM). Using imagery from 1949, 1957, and 2013, we simulated and validated change among three land cover categories: Water, Marsh, and Upland. Two scenarios were run each with a set of distance to edge driver maps. We presented our findings at the Plum Island Ecosystems meeting in February 2020.
 
-![](assets/img/mongolia_ap.png)
+[![](assets/img/mongolia_ap.jpg)](https://raw.githubusercontent.com/jstrzempko/jstrzempko.github.io/main/assets/img/mongolia_aplegend.jpg)
 
 #### Mapping Our Way Through the Smog: Researching Ulaanbaatar Air Pollution in Ulaanbaatar, Mongolia
 
