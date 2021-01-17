@@ -23,19 +23,19 @@ Co-author on 2019 ASERT Image Analysis Labs Annual Report to USASAC
 
 ## Skills
 
-ArcGIS (Map, Pro, Online), QGIS, TerrSet, GeoDa, Google Earth Engine, Google Colaboratory
+* ArcGIS (Map, Pro, Online), QGIS, TerrSet, GeoDa, Google Earth Engine, Google Colaboratory
 
-R, Python, JavaScript
+* R, Python, JavaScript
 
-Google Drive (Docs, Sheets, Slides, Forms, etc)
+* Google Drive (Docs, Sheets, Slides, Forms, etc)
 
-Microsoft Office (PowerPoint, Excel, Word)
+* Microsoft Office (PowerPoint, Excel, Word)
 
-Project Leadership
+* Project Leadership
 
-Remote Work Experience
+* Remote Work Experience
 
-Spanish (Intermediate), Mongolian (Beginner), Polish (Beginner)
+* Spanish (Intermediate), Mongolian (Beginner), Polish (Beginner)
 
 ## Education
 
@@ -56,16 +56,18 @@ Class Valedictorian, Principal’s List, Member of National Honor Society
 
 ## Awards
 
-Edna Bailey Sussman Fund Graduate Fellowship (2020)
+* Edna Bailey Sussman Fund Graduate Fellowship (2020)
 
-2020 Environmental Science Academic Excellence Award
+* 2020 Environmental Science Academic Excellence Award
 
-Marsh-Mosakowski NOAA Fellowship (Summer 2018)
+* Marsh-Mosakowski NOAA Fellowship (Summer 2018)
 
-Richard Traina Scholarship (2016-2020)
+* Richard Traina Scholarship (2016-2020)
 
 ## Additional Experience
 
 #### Preservationist, Serials Assistant - Goddard Library - Fall 2017-present
+
 #### President, Treasurer - Clark’s Women in STEM - April 2018-May 2020
+
 #### President, Secretary - Clark Sustainability Collaborative - 2018-2019
