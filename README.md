@@ -8,4 +8,4 @@ I have experience with, and a curiosity for, a variety of software packages (*Ar
 
 In my free time, I enjoy rock climbing, rollerblading, hiking, and spending time with my dog, Mj.
 
-[![](assets/img/mj2.jpg)](google.com)
+[![](assets/img/mj2.jpg)](https://www.google.com/)
