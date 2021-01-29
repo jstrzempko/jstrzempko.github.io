@@ -2,7 +2,7 @@
 
 # Projects
 
-[![](assets/img/masters.png)](https://raw.githubusercontent.com/jstrzempko/jstrzempko.github.io/main/assets/img/masters.png)
+[![](assets/img/masters.png)](https://raw.githubusercontent.com/jstrzempko/jstrzempko.github.io/main/assets/img/c_masters.png)
 
 #### Flow and Markov matrices for categorical transition extrapolation
 
