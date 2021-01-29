@@ -10,7 +10,7 @@
 
 My Master's Thesis is a comparison of two kinds of transition matrices used for extrapolation: the Markov and Flow. I plan to receive my Master's degree in June 2021 and defend my research that summer. I will be presenting my findings at the annual meeting of the American Association of Geographers (AAG) in April 2021. My advisor is Dr. Robert Gilmore Pontius Jr.
 
-[![](assets/img/c_poster.png)](https://raw.githubusercontent.com/jstrzempko/jstrzempko.github.io/main/assets/img/poster.png)
+[![](assets/img/c_pyqgis_tutorial.PNG)](https://raw.githubusercontent.com/jstrzempko/jstrzempko.github.io/main/assets/img/pyqgis_tutorial.PNG)
 
 #### Tutorial: PyQGIS 
 
@@ -18,7 +18,7 @@ My Master's Thesis is a comparison of two kinds of transition matrices used for 
 
 I created a tutorial that serves as an introduction to QGIS and the use of Python scripting within QGIS. I additionally aimed to promote the use of open source software through a demonstration of its capabilities using the ACLED US Crisis Monitor dataset. 
 
-[![](assets/img/c_pyqgis_tutorial.PNG)](https://raw.githubusercontent.com/jstrzempko/jstrzempko.github.io/main/assets/img/pyqgis_tutorial.PNG)
+[![](assets/img/c_poster.png)](https://raw.githubusercontent.com/jstrzempko/jstrzempko.github.io/main/assets/img/poster.png)
 
 #### Characterization of wetland scaling and influence in the Ipswich and Parker River watersheds of northeastern Massachusetts
 
