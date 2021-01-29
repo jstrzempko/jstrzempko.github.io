@@ -12,4 +12,4 @@
 
 ***GitHub:*** [jstrzempko](https://github.com/jstrzempko)
 
-![](assets/img/equinox.jpg)
+![](assets/img/c_equinox.jpg)
