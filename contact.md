@@ -2,8 +2,6 @@
 
 #### Feel free to reach out to me using the below contact information. I am open to both personal and professional inquiries.
 
-***Location:*** Worcester, MA 01610
-
 ***Phone:*** 508-479-3279
 
 ***Email:*** jessstrzempko@gmail.com
@@ -13,3 +11,4 @@
 ***GitHub:*** [jstrzempko](https://github.com/jstrzempko)
 
 ![](assets/img/c_equinox.jpg)
+*Mt. Equinox, VT (2019)*
