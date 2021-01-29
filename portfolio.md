@@ -24,7 +24,7 @@ I received the Edna Bailey Sussman Fund Graduate Fellowship in Spring 2020 to wo
 
 *Final Project for GEOG 397 Advanced Raster GIS*
 
-I completed a tutorial that walks users through a simple application of the Random Forest machine learning algorithm to habitat biodiversity modeling (HBM) of the vicugna in South America. You can find the tutorial here: Link to Script. Contact me for access to the imported shapefiles used in the tutorial.
+I completed a tutorial that walks users through a simple application of the Random Forest machine learning algorithm to habitat biodiversity modeling (HBM) of the vicugna in South America. [You can find the tutorial here.](https://github.com/jstrzempko/GEE-Random-Forest-HBM-Tutorial)
 
 [![](assets/img/KernelDensity.gif)](https://raw.githubusercontent.com/jstrzempko/jstrzempko.github.io/main/assets/img/KernelDensity.gif)
 
