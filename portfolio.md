@@ -18,7 +18,7 @@ My Master's Thesis is a comparison of two kinds of transition matrices used for 
 
 I created a tutorial that serves as an introduction to QGIS and the use of Python scripting within QGIS. I additionally aimed to promote the use of open source software through a demonstration of its capabilities using the ACLED US Crisis Monitor dataset. 
 
-![](assets/img/c_pyqgis_tutorial.PNG)
+[![](assets/img/c_pyqgis_tutorial.PNG)](https://raw.githubusercontent.com/jstrzempko/jstrzempko.github.io/main/assets/img/pyqgis_tutorial.PNG)
 
 #### Characterization of wetland scaling and influence in the Ipswich and Parker River watersheds of northeastern Massachusetts
 
