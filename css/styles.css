@@ -1,0 +1,98 @@
+@font-face {
+  font-family: 'ubunturegular';
+  src: url('fonts/ubuntu-regular-webfont.woff2') format('woff2'),
+    url('fonts/ubuntu-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  background-color: #383838;
+  margin: 60px auto;
+  width: 85%;
+}
+
+h1 {
+  color: #F5F5F5;
+  font-size: 2.5em;
+  font-family: 'ubunturegular', 'Helvetica', 'Sans-Serif';
+}
+
+h2 {
+  color: #c8c8c8;
+  font-size: 1.5em;
+  font-family: 'ubunturegular', 'Helvetica', 'Sans-Serif';
+}
+
+h2 a:link {
+  color: #a6a6a6;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+h3 {
+  color: #F5F5F5;
+  font-size: 1em;
+  font-family: 'ubunturegular', 'Helvetica', 'Sans-Serif';
+}
+
+h4 {
+  color: #F5F5F5;
+  font-size: 1.5em;
+  font-family: 'ubunturegular', 'Helvetica', 'Sans-Serif';
+}
+
+p {
+  font-size: 16px;
+  font-family: 'ubunturegular', 'Helvetica', 'Arial', 'Sans-Serif';
+  line-height: 1.4em;
+  color: #F5F5F5;
+}
+
+p a:link {
+  color: #a6a6a6;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+p a:hover {
+  color:  #a6a6a6;
+  background-color: transparent;
+  font-weight: bold;
+}
+
+ul {
+  font-family: 'Helvetica', 'Arial', 'Sans-Serif';
+  list-style-type: none;
+  margin: 1px;
+  padding: 1px;
+  overflow: hidden;
+  background-color: transparent;
+}
+
+li {
+  font-family: 'Helvetica', 'Arial', 'Sans-Serif'
+    float: left;
+  border-right: 2px #383838;
+}
+
+/* Add a border to all (but not the last) list items */
+li:last-child {
+  border-right: none;
+}
+
+li a {
+  display: inline-block;
+  color: #F5F5F5;
+  padding: 15px 17px;
+  text-decoration: none;
+}
+
+/* Links will change color when hovered over */
+li a:hover {
+  background-color: #a09f9f;
+}
+
+.active {
+  background-color: #a09f9f;
+}
