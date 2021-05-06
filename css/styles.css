@@ -24,7 +24,7 @@ h2 {
   font-family: 'ubunturegular', 'Helvetica', 'Sans-Serif';
 }
 
-h2 a:link {
+h2 a:link a:visited {
   color: #a6a6a6;
   background-color: transparent;
   text-decoration: none;
@@ -49,7 +49,7 @@ p {
   color: #F5F5F5;
 }
 
-p a:link {
+p a:link a:visited {
   color: #a6a6a6;
   background-color: transparent;
   text-decoration: none;
