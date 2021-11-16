@@ -1,1 +1,1 @@
-# Jess Strzempko Portfolio
+# Jess Strzempko Professional Portfolio
