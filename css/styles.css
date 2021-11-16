@@ -14,7 +14,7 @@ header {
   /*position: sticky;*/
   top: 0;
   left: 0;
-  width: 100%;
+  width: 98%;
   padding: 15px;
   background: #5B7B65;
   text-align: center;
@@ -111,7 +111,7 @@ li a:hover {
 
 /* stuff relating to the lightbox on the portfolio page here: */
 
-.row < .column {
+.row = .column {
   padding: 0 8px;
 }
 
