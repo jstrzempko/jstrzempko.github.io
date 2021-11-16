@@ -121,12 +121,17 @@ li a:hover {
   clear: both;
 }
 
-/* Create four equal columns that floats next to eachother */
+/* Create four equal columns that floats next to eachother*/
 .column {
   float: left;
-  width: 22%;
-  padding: 20px;
+  width: 20%;
+  padding: 10px;
 }
+/*
+.column {
+  width: 20%;
+  padding: 10px;
+}*/
 
 /* Create a separate thumbnail row of images*/
 .thumbnail {
