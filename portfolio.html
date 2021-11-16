@@ -26,107 +26,226 @@
     </ul>
   </header>
 
-  <div style="width: 70%; margin: 60px auto;">
-    <h2 style="text-align: center;">Projects</h2>
+  <!-- Images used to open the lightbox -->
+  <div class="row">
+    <div class="column">
+      <img src="images/c_AAGSAM_odland.PNG" onclick="openModal();currentSlide(1)" class="hover-shadow" width=300px>
+    </div>
+    <div class="column">
+      <img src="images/c_pyqgis_tutorial.PNG" onclick="openModal();currentSlide(2)" class="hover-shadow" width=300px>
+    </div>
+    <div class="column">
+      <img src="images/c_poster.png" onclick="openModal();currentSlide(3)" class="hover-shadow" width=300px>
+    </div>
+    <div class="column">
+      <img src="images/c_advraster_gee.PNG" onclick="openModal();currentSlide(3)" class="hover-shadow" width=300px>
+    </div>
 
-    <p style="text-align: center;"><img src="images/c_AAGSAM_odland.PNG" height=300px></p>
+    <!-- The Modal/Lightbox -->
+    <div id="myModal" class="modal">
+      <span class="close cursor" onclick="closeModal()">&times;</span>
+      <div class="modal-content">
 
-    <h3 style="text-align: center;">Flow and Markov matrices for categorical transition extrapolation</h3>
+        <div class="mySlides">
+          <div class="labeltext">Flow and Markov matrices for categorical transition extrapolation (Master's Thesis)</div>
+          <img src="images/c_AAGSAM_odland.PNG" style="width:100%">
+        </div>
 
-    <p style="text-align: center;"><i>In Progress work on Master's Thesis</i></p>
+        <div class="mySlides">
+          <div class="labeltext">Tutorial: PyQGIS (Final Project for IDCE 30274 Computer Programming for GIS)</div>
+          <img src="images/c_pyqgis_tutorial.PNG" style="width:100%">
+        </div>
 
-    <p style="text-align: center;">My master's thesis is a comparison of two kinds of transition matrices used for extrapolation: the Markov and Flow. I successfully defended my thesis in April 2021 and submitted it to the university with plans to
-      graduate in June 2021. I presented my findings at the annual meeting of the American Association of Geographers (AAG) in April 2021 and won third place in the John Odland student paper competition run by the Spatial Analysis and Modeling
-      specialty group.</p>
+        <div class="mySlides">
+          <div class="labeltext">Characterization of wetland scaling and influence in the Ipswich and Parker River watersheds of northeastern Massachusetts (Summer 2020 Internship)</div>
+          <img src="images/c_poster.png" style="width:100%">
+        </div>
 
-    <p style="text-align: center;"><img src="images/c_pyqgis_tutorial.PNG" height=300px></p>
+        <div class="mySlides">
+          <div class="labeltext">Tutorial: Habitat Suitability Modeling using Random Forest Classification in Google Earth Engine (Final Project for GEOG 397 Advanced Raster GIS)</div>
+          <img src="images/c_advraster_gee.PNG" style="width:100%">
+        </div>
 
-    <h3 style="text-align: center;">Tutorial: PyQGIS</h3>
+        <!-- Next/previous controls -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
 
-    <p style="text-align: center;"><i>Final Project for IDCE 30274 Computer Programming for GIS</i></p>
+        <!-- Caption text -->
+        <div class="caption-container">
+          <p id="caption"></p>
+        </div>
 
-    <p style="text-align: center;">I created a tutorial that serves as an introduction to QGIS and the use of Python scripting within QGIS. I additionally aimed to promote the use of open source software through a demonstration of its capabilities
-      using the ACLED US Crisis Monitor dataset.</p>
+        <!-- Thumbnail image controls -->
+        <div class="column">
+          <img class="demo" src="images/c_AAGSAM_odland.PNG" onclick="currentSlide(1)" alt="c_AAGSAM_odland">
+        </div>
 
-    <p style="text-align: center;"><img src="images/c_poster.png" height=300px></p>
+        <div class="column">
+          <img class="demo" src="images/c_pyqgis_tutorial.PNG" onclick="currentSlide(2)" alt="c_pyqgis_tutorial">
+        </div>
 
-    <h3 style="text-align: center;">Characterization of wetland scaling and influence in the Ipswich and Parker River watersheds of northeastern Massachusetts</h3>
+        <div class="column">
+          <img class="demo" src="images/c_poster.png" onclick="currentSlide(3)" alt="c_poster">
+        </div>
 
-    <p style="text-align: center;"><i>Summer 2020 Internship</i></p>
+        <div class="column">
+          <img class="demo" src="mages/c_advraster_gee.PNG" onclick="currentSlide(4)" alt="c_advraster_gee">
+        </div>
+      </div>
+    </div>
 
-    <p style="text-align: center;">I received the Edna Bailey Sussman Fund Graduate Fellowship in Spring 2020 to work with Dr. Wilfred Wollheim of the University of New Hampshire's Water Systems Analysis Group on a research project examining
-      hydrologic scaling this past summer. I will be presenting my findings in virtual poster form at the American Geophysical Union (AGU) Fall Meeting this December 2020.</p>
+    <script>
+      // Open the Modal
+      function openModal() {
+        document.getElementById("myModal").style.display = "block";
+      }
 
-    <p style="text-align: center;"><img src="images/c_advraster_gee.PNG" height=300px></p>
+      // Close the Modal
+      function closeModal() {
+        document.getElementById("myModal").style.display = "none";
+      }
 
-    <h3 style="text-align: center;">Tutorial: Habitat Suitability Modeling using Random Forest Classification in Google Earth Engine</h3>
+      var slideIndex = 1;
+      showSlides(slideIndex);
 
-    <p style="text-align: center;"><i>Final Project for GEOG 397 Advanced Raster GIS</i></p>
+      // Next/previous controls
+      function plusSlides(n) {
+        showSlides(slideIndex += n);
+      }
 
-    <p style="text-align: center;">I created a tutorial that walks users through a simple application of the Random Forest machine learning algorithm to habitat biodiversity modeling (HBM) of the vicugna in South America. <a
-        href="https://github.com/jstrzempko/GEE-Random-Forest-HBM-Tutorial">You can find the tutorial here.<a></p>
+      // Thumbnail image controls
+      function currentSlide(n) {
+        showSlides(slideIndex = n);
+      }
 
-    <p style="text-align: center;"><img src="images/c_KernelDensity.gif" height=300px></p>
+      function showSlides(n) {
+        var i;
+        var slides = document.getElementsByClassName("mySlides");
+        var dots = document.getElementsByClassName("demo");
+        var captionText = document.getElementById("caption");
+        if (n > slides.length) {
+          slideIndex = 1
+        }
+        if (n < 1) {
+          slideIndex = slides.length
+        }
+        for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";
+        }
+        for (i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex - 1].style.display = "block";
+        dots[slideIndex - 1].className += " active";
+        captionText.innerHTML = dots[slideIndex - 1].alt;
+      }
+    </script>
 
-    <h3 style="text-align: center;">Examining Climate Change Impacts on Tropical Cyclones in the Western North Pacific using Vector GIS Spatial Analyst Tools</h3>
+    <!--split between previous layout and new one-->
 
-    <p style="text-align: center;"><i>Final Project for IDCE 388 Advanced Vector GIS</i></p>
+    <div style="width: 70%; margin: 60px auto;">
+      <h2 style="text-align: center;">Projects</h2>
 
-    <p style="text-align: center;">My teammate, Caroline Williams, and I completed this project investigating the impacts of anthropogenic climate change on tropical cyclones in the Western North Pacific (WNP) Basin in the past century. Our work was
-      framed within the context of risk and vulnerability, so we sought to understand the changing impact of these natural disasters on populations in Asia. We performed spatial analysis using kernel density, zonal statistics, and selection tools.
-    </p>
+      <p style="text-align: center;"><img src="images/c_AAGSAM_odland.PNG" height=300px></p>
 
-    <p style="text-align: center;"><img src="images/c_honorsthesis_nbr.png" height=300px></p>
+      <h3 style="text-align: center;">Flow and Markov matrices for categorical transition extrapolation</h3>
 
-    <h3 style="text-align: center;">Burn Severity and Vegetation Recovery Analysis of the Anaktuvuk River Fire on the North Slope Tundra of Alaska</h3>
+      <p style="text-align: center;"><i>In Progress work on Master's Thesis</i></p>
 
-    <p style="text-align: center;"><i>Undergraduate Honors Thesis</i></p>
+      <p style="text-align: center;">My master's thesis is a comparison of two kinds of transition matrices used for extrapolation: the Markov and Flow. I successfully defended my thesis in April 2021 before graduation in June 2021. I presented my
+        findings at the annual meeting of the American Association of Geographers (AAG) in April 2021 and won third place in the John Odland student paper competition run by the Spatial Analysis and Modeling specialty group.</p>
 
-    <p style="text-align: center;">Completed in my senior year at Clark, my Honors Thesis observed trends in vegetation recovery at the site of the Anaktuvuk River Fire in Alaska for up to 12 years post-fire through a set of spectral indices: NBR,
-      NDVI, and EVI. The primary purpose was to analyze the hypothesized relationship between burn severity and vegetation recovery. I defended my thesis in May 2020 and received High Honors.</p>
+      <p style="text-align: center;"><img src="images/c_pyqgis_tutorial.PNG" height=300px></p>
 
-    <p style="text-align: center;"><img src="images/c_rpontius_VCRposter05.png" height=300px></p>
+      <h3 style="text-align: center;">Tutorial: PyQGIS</h3>
 
-    <h3 style="text-align: center;">Land Change Extrapolation for Virginia Coast Reserve with TerrSet's Land Change Modeler</h3>
+      <p style="text-align: center;"><i>Final Project for IDCE 30274 Computer Programming for GIS</i></p>
 
-    <p style="text-align: center;"><i>Final Project for GEOG 360 GIS & Land Change Models</i></p>
+      <p style="text-align: center;">I created a tutorial that serves as an introduction to QGIS and the use of Python scripting within QGIS. I additionally aimed to promote the use of open source software through a demonstration of its capabilities
+        using the ACLED US Crisis Monitor dataset.</p>
 
-    <p style="text-align: center;"> My group members, Rachel Corcoran-Adams, Elizabeth Lohr, and Julia Moore, and I performed land change extrapolations for the Virginia Coast Reserve site of the Long Term Ecological Research Network with TerrSet’s
-      Land Change Modeler (LCM). Using imagery from 1949, 1957, and 2013, we simulated and validated change among three land cover categories: Water, Marsh, and Upland. Two scenarios were run each with a set of distance to edge driver maps. We
-      presented our findings at the Plum Island Ecosystems meeting in February 2020.</p>
+      <p style="text-align: center;"><img src="images/c_poster.png" height=300px></p>
 
-    <p style="text-align: center;"><img src="images/c_mongolia_aplegend.png" height=300px></p>
+      <h3 style="text-align: center;">Characterization of wetland scaling and influence in the Ipswich and Parker River watersheds of northeastern Massachusetts</h3>
 
-    <h3 style="text-align: center;">Mapping Our Way Through the Smog: Researching Ulaanbaatar Air Pollution in Ulaanbaatar, Mongolia</h3>
+      <p style="text-align: center;"><i>Summer 2020 Internship</i></p>
 
-    <p style="text-align: center;"><i>Abroad Internship with the Ger Community Mapping Center</i></p>
+      <p style="text-align: center;">I received the Edna Bailey Sussman Fund Graduate Fellowship in Spring 2020 to work with Dr. Wilfred Wollheim of the University of New Hampshire's Water Systems Analysis Group on a research project examining
+        hydrologic scaling this past summer. I will be presenting my findings in virtual poster form at the American Geophysical Union (AGU) Fall Meeting this December 2020.</p>
 
-    <p style="text-align: center;">In May 2019 during my semester abroad in Mongolia, I completed an internship with a local NGO, the Ger Community Mapping Center. The organization used GPS and AQI monitors to collect data from specific individuals
-      about their daily commutes for the European Union Switch II Asia Program. I worked closely with my advisors, Anukhatan Tsevegmid and Batdorj Gongor, to create maps of air pollution exposure to particulate matter.</p>
+      <p style="text-align: center;"><img src="images/c_advraster_gee.PNG" height=300px></p>
 
-    <p style="text-align: center;"><img src="images/c_introRS_glacier.jpg" height=300px></p>
+      <h3 style="text-align: center;">Tutorial: Habitat Suitability Modeling using Random Forest Classification in Google Earth Engine</h3>
 
-    <h3 style="text-align: center;">Melting Iceland: Mýrdalsjökull and Eyjafjallajökull</h3>
+      <p style="text-align: center;"><i>Final Project for GEOG 397 Advanced Raster GIS</i></p>
 
-    <p style="text-align: center;"><i>Final Project for GEOG 296 Introduction to Remote Sensing</i></p>
+      <p style="text-align: center;">I created a tutorial that walks users through a simple application of the Random Forest machine learning algorithm to habitat biodiversity modeling (HBM) of the vicugna in South America. <a
+          href="https://github.com/jstrzempko/GEE-Random-Forest-HBM-Tutorial">You can find the tutorial here.<a></p>
 
-    <p style="text-align: center;">My group members, Rowan Moody and Jessica Martinez, and I characterized changes in the extents of Icelandic glaciers by conducting land cover type classifications for a Landsat scene in the southern region of
-      Iceland around the Mýrdalsjökull and Eyjafjallajökull glaciers across 3 time points: 1988, 1996, and 2014. We performed supervised classification to generate 5 categories of land cover: Sand, Snow/Ice, Vegetation, Water, and Clouds. We then
-      compared areal extent of each class across the three years to investigate potential changes in land cover due to warming global temperatures.</p>
+      <p style="text-align: center;"><img src="images/c_KernelDensity.gif" height=300px></p>
 
-    <p style="text-align: center;"><img src="images/c_introgis_chickadee.png" height=300px></p>
+      <h3 style="text-align: center;">Examining Climate Change Impacts on Tropical Cyclones in the Western North Pacific using Vector GIS Spatial Analyst Tools</h3>
 
-    <h3 style="text-align: center;">Black-capped Chickadee Breeding Habitat Distribution in MA</h3>
+      <p style="text-align: center;"><i>Final Project for IDCE 388 Advanced Vector GIS</i></p>
 
-    <p style="text-align: center;"><i>Final Project for GEOG 190 Introduction to GIS</i></p>
+      <p style="text-align: center;">My teammate, Caroline Williams, and I completed this project investigating the impacts of anthropogenic climate change on tropical cyclones in the Western North Pacific (WNP) Basin in the past century. Our work
+        was
+        framed within the context of risk and vulnerability, so we sought to understand the changing impact of these natural disasters on populations in Asia. We performed spatial analysis using kernel density, zonal statistics, and selection tools.
+      </p>
 
-    <p style="text-align: center;">The main intent of this project was to familiarize myself with spatial analysis techniques through an examination of the natural breeding habitat of black-capped chickadee in Massachusetts based on criteria relevant
-      to their nesting specifications. My work demonstrated how humans have increased viable breeding habitat for the black-capped chickadee according to criteria used. I gauged both the natural and manmade distribution of chickadee breeding grounds
-      allowing speculation about present and future population dynamics.</p>
-  </div>
-  <script>
+      <p style="text-align: center;"><img src="images/c_honorsthesis_nbr.png" height=300px></p>
 
-  </script>
+      <h3 style="text-align: center;">Burn Severity and Vegetation Recovery Analysis of the Anaktuvuk River Fire on the North Slope Tundra of Alaska</h3>
+
+      <p style="text-align: center;"><i>Undergraduate Honors Thesis</i></p>
+
+      <p style="text-align: center;">Completed in my senior year at Clark, my Honors Thesis observed trends in vegetation recovery at the site of the Anaktuvuk River Fire in Alaska for up to 12 years post-fire through a set of spectral indices: NBR,
+        NDVI, and EVI. The primary purpose was to analyze the hypothesized relationship between burn severity and vegetation recovery. I defended my thesis in May 2020 and received High Honors.</p>
+
+      <p style="text-align: center;"><img src="images/c_rpontius_VCRposter05.png" height=300px></p>
+
+      <h3 style="text-align: center;">Land Change Extrapolation for Virginia Coast Reserve with TerrSet's Land Change Modeler</h3>
+
+      <p style="text-align: center;"><i>Final Project for GEOG 360 GIS & Land Change Models</i></p>
+
+      <p style="text-align: center;"> My group members, Rachel Corcoran-Adams, Elizabeth Lohr, and Julia Moore, and I performed land change extrapolations for the Virginia Coast Reserve site of the Long Term Ecological Research Network with TerrSet’s
+        Land Change Modeler (LCM). Using imagery from 1949, 1957, and 2013, we simulated and validated change among three land cover categories: Water, Marsh, and Upland. Two scenarios were run each with a set of distance to edge driver maps. We
+        presented our findings at the Plum Island Ecosystems meeting in February 2020.</p>
+
+      <p style="text-align: center;"><img src="images/c_mongolia_aplegend.png" height=300px></p>
+
+      <h3 style="text-align: center;">Mapping Our Way Through the Smog: Researching Ulaanbaatar Air Pollution in Ulaanbaatar, Mongolia</h3>
+
+      <p style="text-align: center;"><i>Abroad Internship with the Ger Community Mapping Center</i></p>
+
+      <p style="text-align: center;">In May 2019 during my semester abroad in Mongolia, I completed an internship with a local NGO, the Ger Community Mapping Center. The organization used GPS and AQI monitors to collect data from specific individuals
+        about their daily commutes for the European Union Switch II Asia Program. I worked closely with my advisors, Anukhatan Tsevegmid and Batdorj Gongor, to create maps of air pollution exposure to particulate matter.</p>
+
+      <p style="text-align: center;"><img src="images/c_introRS_glacier.jpg" height=300px></p>
+
+      <h3 style="text-align: center;">Melting Iceland: Mýrdalsjökull and Eyjafjallajökull</h3>
+
+      <p style="text-align: center;"><i>Final Project for GEOG 296 Introduction to Remote Sensing</i></p>
+
+      <p style="text-align: center;">My group members, Rowan Moody and Jessica Martinez, and I characterized changes in the extents of Icelandic glaciers by conducting land cover type classifications for a Landsat scene in the southern region of
+        Iceland around the Mýrdalsjökull and Eyjafjallajökull glaciers across 3 time points: 1988, 1996, and 2014. We performed supervised classification to generate 5 categories of land cover: Sand, Snow/Ice, Vegetation, Water, and Clouds. We then
+        compared areal extent of each class across the three years to investigate potential changes in land cover due to warming global temperatures.</p>
+
+      <p style="text-align: center;"><img src="images/c_introgis_chickadee.png" height=300px></p>
+
+      <h3 style="text-align: center;">Black-capped Chickadee Breeding Habitat Distribution in MA</h3>
+
+      <p style="text-align: center;"><i>Final Project for GEOG 190 Introduction to GIS</i></p>
+
+      <p style="text-align: center;">The main intent of this project was to familiarize myself with spatial analysis techniques through an examination of the natural breeding habitat of black-capped chickadee in Massachusetts based on criteria
+        relevant
+        to their nesting specifications. My work demonstrated how humans have increased viable breeding habitat for the black-capped chickadee according to criteria used. I gauged both the natural and manmade distribution of chickadee breeding
+        grounds
+        allowing speculation about present and future population dynamics.</p>
+    </div>
+    <script>
+
+    </script>
 
 </body>
 
