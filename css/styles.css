@@ -83,9 +83,8 @@ ul {
 }
 
 li {
-  font-family: 'Helvetica', 'Arial', 'Sans-Serif'
-    float: left;
-  border-right: 2px #383838;
+  font-family: 'Helvetica', 'Arial', 'Sans-Serif';
+  border-right: 2px;
 }
 
 /* Add a border to all (but not the last) list items */
