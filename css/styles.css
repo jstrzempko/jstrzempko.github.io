@@ -152,9 +152,9 @@ li a:hover {
 /* Modal Content */
 .modal-content {
   position: relative;
-  background-color: #fefefe;
+  background-color: #000;
   margin: auto;
-  padding: 0;
+  padding-top: 60px;
   width: 90%;
   max-width: 1200px;
 }
@@ -213,10 +213,11 @@ li a:hover {
 
 /* Number text (1/3 etc) */
 .numbertext {
-  font-family: 'Helvetica', 'Arial', 'Sans-Serif';
+  font-family: 'ubunturegular', 'Helvetica', 'Sans-Serif';
   color: #fff;
+  test-align: center,
   background-color: rgba(0, 0, 0, .6);
-  font-size: 15px;
+  font-size: 20px;
   padding: 8px 12px;
   position: absolute;
   top: 0;
